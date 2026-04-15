@@ -1,0 +1,28 @@
+{
+  "name": "laboratorio-de-programacion-y-lenguajes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CiroFlorentin/Laboratorio-de-programacion-y-lenguajes.git"
+  },
+  "keywords": [],
+  "author": "CiroFlorentin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CiroFlorentin/Laboratorio-de-programacion-y-lenguajes/issues"
+  },
+  "homepage": "https://github.com/CiroFlorentin/Laboratorio-de-programacion-y-lenguajes#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

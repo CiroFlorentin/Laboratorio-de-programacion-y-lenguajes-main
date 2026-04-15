@@ -1,0 +1,356 @@
+[
+  {
+    "id": 1,
+    "nombre": "Notebook Lenovo IdeaPad 3",
+    "precio": 850000,
+    "categorias": ["tecnologia", "computadoras"],
+    "stock": 12
+  },
+  {
+    "id": 2,
+    "nombre": "Notebook HP Pavilion 15",
+    "precio": 920000,
+    "categorias": ["tecnologia", "computadoras"],
+    "stock": 10
+  },
+  {
+    "id": 3,
+    "nombre": "MacBook Air M1",
+    "precio": 1500000,
+    "categorias": ["tecnologia", "computadoras"],
+    "stock": 6
+  },
+  {
+    "id": 4,
+    "nombre": "PC Gamer Ryzen 5 RTX 3060",
+    "precio": 1800000,
+    "categorias": ["tecnologia", "computadoras"],
+    "stock": 4
+  },
+  {
+    "id": 5,
+    "nombre": "Monitor Samsung 24\" FHD",
+    "precio": 210000,
+    "categorias": ["tecnologia", "monitores"],
+    "stock": 15
+  },
+  {
+    "id": 6,
+    "nombre": "Monitor LG UltraWide 29\"",
+    "precio": 390000,
+    "categorias": ["tecnologia", "monitores"],
+    "stock": 7
+  },
+  {
+    "id": 7,
+    "nombre": "Teclado Mecánico Redragon Kumara",
+    "precio": 78000,
+    "categorias": ["tecnologia", "perifericos"],
+    "stock": 20
+  },
+  {
+    "id": 8,
+    "nombre": "Mouse Logitech G203",
+    "precio": 25000,
+    "categorias": ["tecnologia", "perifericos"],
+    "stock": 45
+  },
+  {
+    "id": 9,
+    "nombre": "Mouse Logitech MX Master 3",
+    "precio": 120000,
+    "categorias": ["tecnologia", "perifericos"],
+    "stock": 12
+  },
+  {
+    "id": 10,
+    "nombre": "Auriculares HyperX Cloud II",
+    "precio": 120000,
+    "categorias": ["tecnologia", "audio"],
+    "stock": 18
+  },
+
+  {
+    "id": 11,
+    "nombre": "Auriculares Sony WH-1000XM4",
+    "precio": 350000,
+    "categorias": ["tecnologia", "audio"],
+    "stock": 9
+  },
+  {
+    "id": 12,
+    "nombre": "Parlante JBL Flip 6",
+    "precio": 140000,
+    "categorias": ["tecnologia", "audio"],
+    "stock": 14
+  },
+  {
+    "id": 13,
+    "nombre": "Smart TV Samsung 50\" 4K",
+    "precio": 750000,
+    "categorias": ["tecnologia", "tv"],
+    "stock": 5
+  },
+  {
+    "id": 14,
+    "nombre": "Smart TV LG 55\" OLED",
+    "precio": 1600000,
+    "categorias": ["tecnologia", "tv"],
+    "stock": 3
+  },
+  {
+    "id": 15,
+    "nombre": "Chromecast con Google TV",
+    "precio": 95000,
+    "categorias": ["tecnologia", "streaming"],
+    "stock": 25
+  },
+  {
+    "id": 16,
+    "nombre": "Amazon Fire Stick",
+    "precio": 80000,
+    "categorias": ["tecnologia", "streaming"],
+    "stock": 22
+  },
+  {
+    "id": 17,
+    "nombre": "PlayStation 5",
+    "precio": 1200000,
+    "categorias": ["gaming", "consolas"],
+    "stock": 4
+  },
+  {
+    "id": 18,
+    "nombre": "Xbox Series X",
+    "precio": 1100000,
+    "categorias": ["gaming", "consolas"],
+    "stock": 5
+  },
+  {
+    "id": 19,
+    "nombre": "Joystick PS5 DualSense",
+    "precio": 120000,
+    "categorias": ["gaming", "accesorios"],
+    "stock": 16
+  },
+  {
+    "id": 20,
+    "nombre": "Joystick Xbox Wireless",
+    "precio": 110000,
+    "categorias": ["gaming", "accesorios"],
+    "stock": 18
+  },
+
+  {
+    "id": 21,
+    "nombre": "Silla Gamer Corsair",
+    "precio": 320000,
+    "categorias": ["hogar", "muebles"],
+    "stock": 6
+  },
+  {
+    "id": 22,
+    "nombre": "Escritorio Gamer",
+    "precio": 180000,
+    "categorias": ["hogar", "muebles"],
+    "stock": 8
+  },
+  {
+    "id": 23,
+    "nombre": "Lámpara LED Escritorio",
+    "precio": 35000,
+    "categorias": ["hogar", "iluminacion"],
+    "stock": 20
+  },
+  {
+    "id": 24,
+    "nombre": "Aspiradora Robot Xiaomi",
+    "precio": 450000,
+    "categorias": ["hogar", "electrodomesticos"],
+    "stock": 5
+  },
+  {
+    "id": 25,
+    "nombre": "Cafetera Nespresso",
+    "precio": 220000,
+    "categorias": ["hogar", "electrodomesticos"],
+    "stock": 10
+  },
+  {
+    "id": 26,
+    "nombre": "Pava Eléctrica Philips",
+    "precio": 60000,
+    "categorias": ["hogar", "electrodomesticos"],
+    "stock": 18
+  },
+  {
+    "id": 27,
+    "nombre": "Heladera Samsung Inverter",
+    "precio": 1300000,
+    "categorias": ["hogar", "electrodomesticos"],
+    "stock": 3
+  },
+  {
+    "id": 28,
+    "nombre": "Microondas BGH",
+    "precio": 150000,
+    "categorias": ["hogar", "electrodomesticos"],
+    "stock": 9
+  },
+  {
+    "id": 29,
+    "nombre": "Lavarropas LG 8kg",
+    "precio": 900000,
+    "categorias": ["hogar", "electrodomesticos"],
+    "stock": 4
+  },
+  {
+    "id": 30,
+    "nombre": "Ventilador de Pie Liliana",
+    "precio": 70000,
+    "categorias": ["hogar", "climatizacion"],
+    "stock": 15
+  },
+
+  {
+    "id": 31,
+    "nombre": "Aire Acondicionado Split 3000F",
+    "precio": 800000,
+    "categorias": ["hogar", "climatizacion"],
+    "stock": 3
+  },
+  {
+    "id": 32,
+    "nombre": "Caloventor Peabody",
+    "precio": 45000,
+    "categorias": ["hogar", "climatizacion"],
+    "stock": 12
+  },
+  {
+    "id": 33,
+    "nombre": "Celular Samsung Galaxy S23",
+    "precio": 950000,
+    "categorias": ["tecnologia", "celulares"],
+    "stock": 7
+  },
+  {
+    "id": 34,
+    "nombre": "iPhone 13",
+    "precio": 1200000,
+    "categorias": ["tecnologia", "celulares"],
+    "stock": 5
+  },
+  {
+    "id": 35,
+    "nombre": "Motorola Edge 40",
+    "precio": 700000,
+    "categorias": ["tecnologia", "celulares"],
+    "stock": 8
+  },
+  {
+    "id": 36,
+    "nombre": "Xiaomi Redmi Note 12",
+    "precio": 400000,
+    "categorias": ["tecnologia", "celulares"],
+    "stock": 12
+  },
+  {
+    "id": 37,
+    "nombre": "Tablet Samsung Galaxy Tab A8",
+    "precio": 300000,
+    "categorias": ["tecnologia", "tablets"],
+    "stock": 10
+  },
+  {
+    "id": 38,
+    "nombre": "iPad 9na Generación",
+    "precio": 650000,
+    "categorias": ["tecnologia", "tablets"],
+    "stock": 6
+  },
+  {
+    "id": 39,
+    "nombre": "Smartwatch Apple Watch SE",
+    "precio": 500000,
+    "categorias": ["tecnologia", "wearables"],
+    "stock": 7
+  },
+  {
+    "id": 40,
+    "nombre": "Smartwatch Samsung Galaxy Watch 5",
+    "precio": 420000,
+    "categorias": ["tecnologia", "wearables"],
+    "stock": 9
+  },
+
+  {
+    "id": 41,
+    "nombre": "Cargador Rápido USB-C",
+    "precio": 15000,
+    "categorias": ["tecnologia", "accesorios"],
+    "stock": 50
+  },
+  {
+    "id": 42,
+    "nombre": "Cable HDMI 2.1",
+    "precio": 12000,
+    "categorias": ["tecnologia", "accesorios"],
+    "stock": 60
+  },
+  {
+    "id": 43,
+    "nombre": "Disco SSD 1TB Kingston",
+    "precio": 120000,
+    "categorias": ["tecnologia", "almacenamiento"],
+    "stock": 15
+  },
+  {
+    "id": 44,
+    "nombre": "Disco HDD 2TB Seagate",
+    "precio": 90000,
+    "categorias": ["tecnologia", "almacenamiento"],
+    "stock": 14
+  },
+  {
+    "id": 45,
+    "nombre": "Memoria RAM 16GB DDR4",
+    "precio": 80000,
+    "categorias": ["tecnologia", "componentes"],
+    "stock": 20
+  },
+  {
+    "id": 46,
+    "nombre": "Placa de Video RTX 4060",
+    "precio": 700000,
+    "categorias": ["tecnologia", "componentes"],
+    "stock": 6
+  },
+  {
+    "id": 47,
+    "nombre": "Procesador Ryzen 5 5600X",
+    "precio": 300000,
+    "categorias": ["tecnologia", "componentes"],
+    "stock": 10
+  },
+  {
+    "id": 48,
+    "nombre": "Motherboard ASUS B550",
+    "precio": 200000,
+    "categorias": ["tecnologia", "componentes"],
+    "stock": 9
+  },
+  {
+    "id": 49,
+    "nombre": "Fuente 750W Corsair",
+    "precio": 150000,
+    "categorias": ["tecnologia", "componentes"],
+    "stock": 8
+  },
+  {
+    "id": 50,
+    "nombre": "Gabinete Gamer RGB",
+    "precio": 130000,
+    "categorias": ["tecnologia", "componentes"],
+    "stock": 7
+  }
+]
