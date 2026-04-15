@@ -2,9 +2,7 @@ const express = require('express');
 const productos = require('./data/productos.json');
 require('dotenv').config();
 const app = express();
-const PORT = process.env.PORT;
-
-console.log(PORT);
+const PORT = process.env.PORT || 3000;
 
 //PRODUCTOS
 app.get('/productos', (req, res) => {
