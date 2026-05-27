@@ -8,7 +8,7 @@ POST -> crear recursos 201 -Create
 ]
 ```
 
-```js
+```javascript
 const express = require('express');
 const app = express();
 App.use(express.json());
