@@ -89,60 +89,26 @@
 // INSTALAR EXPRESS
 //Creación de un servidor
 
-const materias = require('./data/materia.json');
+const productos = require('./data/productos.json');
 const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 5001;
+const {makeFns} = require('./functions.js');
 app.use(express.json()); // Define el formato json para recibir información en un POST
-// ENDPOINTS -----------------------------------
-// app.verbo(ruta,función)
 
-app.post('/materias', (req, res) => {
-  const { cod, nombre } = req.body;
-  if (!cod || !nombre) {
-    res.status(400).json({
-      message: 'Faltan datos',
-      status: 'error',
-      data: null,
-    });
-  } else {
-    materias.push({
-      id: Math.floor(Math.random() * (300 - 1 + 1)) + 1,
-      cod,
-      nombre,
-    });
-    res.status(201).json({
-      message: 'Materia agregada',
-      status: 'success',
-      data: { cod, nombre },
-    });
-  }
-});
-app.get('/materias/:id', (req, res) => {
-  const { id } = req.params;
-  const materia = materias.filter((e) => e.id.includes(id));
-  if (!materia) {
-    res.status(404).json({
-      message: 'Materia no encontrada',
-      status: 'error',
-      data: null,
-    });
-    return;
-  }
-  res.status(200).json({
-    message: 'Materia encontrada',
-    status: 'success',
-    data: materia,
-  });
-});
+// // ENDPOINTS -----------------------------------
+// // app.verbo(ruta,función)
 
-app.get('/materias', (req, res) => {
+app.post('/productos/filter', (req,res)=>{
+  const fun = req.body.map(makeFns)
+  const data = productos.filter(p=> fun.every(fn=>fn(p)))
+
   res.status(200).json({
-    message: 'Materias',
+    message: 'Productos filtrados',
     status: 'success',
-    data: materias,
-  });
-});
+    data
+  })
+})
 
 // FIN ENDPOINTS -----------------------------------
 app.listen(PORT, (err) => {
