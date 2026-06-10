@@ -2,10 +2,10 @@
   "name": "laboratorio-de-programacion-y-lenguajes",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "Practica_PreParcial/index.js",
   "scripts": {
-    "dev": "nodemon src/index.js",
-    "start": "node src/index.js",
+    "dev": "nodemon Practica_PreParcial/index.js",
+    "start": "node Practica_PreParcial/index.js",
     "test": "node test.js"
   },
   "repository": {
